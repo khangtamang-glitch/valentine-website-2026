@@ -215,7 +215,7 @@ function setupMusicPlayer() {
 
     // Set music source and volume
     musicSource.src = config.music.musicUrl;
-    bgMusic.volume = config.music.volume || 0.5;
+    bgMusic.volume = config.music.volume || 0.9;
     bgMusic.load();
 
     // Try autoplay if enabled
